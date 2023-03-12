@@ -20,23 +20,10 @@
 </head>
 
 <body>
-
 @include('layouts.header')
 
-    <main role="main">
-
-    <section class="py-5 text-center">
-        <div class="container">
-            <h1 class="jumbotron-heading">Commandez  votre <br><span class="badge badge-light">nouveau</span> <br>T-Shirt <span class="badge badge-primary ">préféré </span>!</h1>
-            <p class="lead text-muted">Dénichez THE T-Shirt de votre série, films préféré(e).</p>
-
-        </div>
-    </section>
-
-      @yield('content')
-    </main>
-
-    <footer class="text-muted">
+@yield('content')
+<footer class="text-muted">
       <div class="container">
         <p class="float-right">
           <a href="#">Back to top</a>
